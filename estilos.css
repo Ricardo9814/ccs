@@ -1,0 +1,24 @@
+
+
+
+[class~="verder"]
+{
+    color: green;
+}
+
+[class$="rojo"]
+{
+    color: orange;
+}
+
+h1 + h2 {
+    color: red;
+}
+
+div span{
+    color: red;
+}
+p > span{
+    color: blue;
+}
+
