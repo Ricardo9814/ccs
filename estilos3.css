@@ -1,0 +1,29 @@
+/*
+flujo de html: es el orden en el apareceran los elementos
+en el documento
+espacio: el es espacio el elemento en el documento
+*/
+
+.parrafo1{
+    visibility: hidden; /*elemento se oculta, severva el espacio*/
+    display: none; /*el espaccio no se conserva*/
+}
+/*position relative*/
+
+.contenedor, .contenedor{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+
+.contenedor{
+    background: chocolate;
+    position: relative;
+    /*top, rigt, bottom, left, z-index*/
+    /*top y left tiene mayor preferencia*/
+    /**/
+    top: 30px;
+    left: 30px;
+    bottom: 1000px;
+}
